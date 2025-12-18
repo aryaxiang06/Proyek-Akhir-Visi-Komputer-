@@ -1,0 +1,32 @@
+{
+  "test_accuracy": 0.949999988079071,
+  "test_loss": 0.19866985082626343,
+  "test_precision": 0.9494949579238892,
+  "test_recall": 0.9399999976158142,
+  "test_auc": null,
+  "confusion_matrix": [
+    [
+      32,
+      2,
+      0
+    ],
+    [
+      0,
+      33,
+      0
+    ],
+    [
+      0,
+      3,
+      30
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n     bullish     0.8684    1.0000    0.9296        33\n     bearish     1.0000    0.9412    0.9697        34\n    sideways     1.0000    0.9091    0.9524        33\n\n    accuracy                         0.9500       100\n   macro avg     0.9561    0.9501    0.9506       100\nweighted avg     0.9566    0.9500    0.9507       100\n",
+  "total_errors": 5,
+  "error_analysis": {
+    "sideways\u2192bearish": 3,
+    "bullish\u2192bearish": 2
+  },
+  "model_path": "/content/drive/My Drive/stock_model_20251213_165451",
+  "timestamp": "20251213-195034"
+}
